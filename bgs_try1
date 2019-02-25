@@ -12,7 +12,7 @@ start0 = start
 count = 0 # the index of image in the trained set.
 time_taken = 0 # initialize time_taken variable.
 flag = 1 # flag = 0 when model is trained.
-path_video = "C:/Users/yz/Desktop/BG_subtraction/video.avi"
+path_video = "C:/Users/zyt/Desktop/BG_subtraction/video.avi"
 out = cv2.VideoWriter(path_video,cv2.VideoWriter_fourcc('M','J','P','G'), 10, (640,480))
 
 while(True):
